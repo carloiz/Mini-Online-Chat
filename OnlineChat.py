@@ -88,7 +88,7 @@ def operation():
         conn.commit()
         e1.delete(0,END)
         e2.delete(0,END)
-        meeeeeeeeennnNNN(tree)
+    meeeeeeeeennnNNN(tree)
 
 
 button = tk.Button(root, text="Send a Message", command=lambda: operation())
