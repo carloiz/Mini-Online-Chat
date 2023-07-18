@@ -1,3 +1,4 @@
+import time
 import tkinter as tk
 import mysql.connector 
 from tkinter import ttk
@@ -52,6 +53,8 @@ def meeeeeeeeennnNNN(tree):
     for ro in connect:
         tree.insert('', i, text="", values=(ro[0],ro[1],ro[2]))
         i = i + 1
+    time.sleep(2)
+    meeeeeeeeennnNNN(tree)
 meeeeeeeeennnNNN(tree)
 
 vsb = ttk.Scrollbar(root, orient="vertical")
