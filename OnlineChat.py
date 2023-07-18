@@ -77,6 +77,7 @@ l2.place(x=100, y=300)
 e2.place(x=300, y=300) 
 
 def operation():
+    return meeeeeeeeennnNNN(tree)
     search_v=search_i.get()
     search_x=search_q.get()
 
